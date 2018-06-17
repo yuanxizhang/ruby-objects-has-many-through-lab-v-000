@@ -1,4 +1,4 @@
-equire_relative "./doctor.rb"
+require_relative "./doctor.rb"
 require_relative "./patient.rb"
 
 class Appointment
