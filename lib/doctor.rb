@@ -22,4 +22,8 @@ class Doctor
     appointments.map(&:patient).uniq 
   end 
   
+  def self.all 
+    @@all 
+  end 
+  
 end 
